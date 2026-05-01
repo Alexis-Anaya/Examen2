@@ -1,0 +1,31 @@
+body{
+    background-image: url(Imagenes/Fondo01.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background-image: url(Imagenes/Banner03.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Titulo01{
+    background-color: rgba(8, 26, 65, 0.75);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#Titulo02{
+    background-color: rgba(66, 104, 185, 0.75);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#Presentacion{
+    background-color: rgba(185, 66, 66, 0.75);
+    color: black;
+    border-radius: 25px;
+}
