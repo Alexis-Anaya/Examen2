@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="p-5">
+        <section class="container-fluid d-flex flex-column align-items-center text-white">
+            <div class="d-flex flex-row align-items-center" id="Titulo01">
+                <img src="Imagenes/Logo01.webp" alt="" width="100px" height="100px">
+                <h1 class="ms-4 fw-bold">Los Lobos Mecanicos</h1>
+            </div>
+            <div><h2 id="Titulo02">Taller Mecanico Universitario</h2></div>
+        </section>
+    </header>
+    <!--MENU DE NAVEGACION-->
+    <nav class="navbar bg-dark d-flex justify-content-center align-items-center col-12"> <!--Utilizar dropdown-->
+            <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
+            <a class="fs-5 btn btn-outline-light btn-lm me-3" href="">Servicios</a>
+            <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="contacto.html">Contacto</a>
+            <!--<a class="fs-5 btn btn-outline-light btn-lm me-3" href="galeria.html">Galeria</a>
+            <a class="fs-5 btn btn-outline-light btn-lm me-3" href="contacto.html">Contacto</a>-->
+    </nav>
+<section class="container mt-4 py-4 text-center" id="Presentacion">
+    <h1>Formulario de Contacto</h1>
+
+    <form id="formulario">
+        Nombre: <input type="text" id="nombre"><br><br>
+        Correo: <input type="email" id="correo" placeholder="Necesita ser un correo valido"><br><br>
+
+        Tipo de Servicio:
+        <select id="servicio">
+            <option value="">Selecciona</option>
+            <option value="Diagnostico">Diagnostico</option>
+            <option value="MantenimientoG">Mantenimiento General</option>
+            <option value="MantenimientoC">Mantenimiento Completo</option>
+            <option value="CambioAceite">Cambio de Aceite</option>
+            <option value="CambioLlantas">Cambio de LLantas</option>
+            <option value="Pintura">Pintura Nueva</option>
+            <option value="Lavado">Lavado de Carro</option>
+            <option value="Deluxe">Paquete Completo</option>
+            <option value="Practica">Registro Practicas Profesionales</option>
+            <option value="Otro">Otra Consulta</option>
+        </select><br><br>
+
+        Mensaje: <br> <textarea name="mensaje" id="Message" placeholder="Escriba aqui su mensaje!"></textarea><br><br>
+        <!--<button id="submit">Submit</button>-->
+        <button type="submit" id="Enviar">Enviar mensaje</button>
+    </form>
+    <br>
+    <!--<button id="btnSaludar">Saludar</button>-->
+    <!--<button id="btnRegistrar">Registrar</button>-->
+    <p id="mensaje"></p>
+    <script src="script.js"></script>
+</section>
+    <footer class="bg-dark text-white text-center p-3 mt-4 sticky-bottom">
+        <p>©2026 Los-Lobos-Mecanicos</p>
+    </footer>
+</body>
+</html>

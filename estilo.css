@@ -29,3 +29,27 @@ header{
     color: black;
     border-radius: 25px;
 }
+
+#formulario{
+    font-weight: bold;
+}
+
+#Message{
+    width: 40%;
+}
+
+#mensaje{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#correo{
+    width: 20%;
+}
+
+#Enviar{
+    border-radius: 20px;
+    background-color: lightgreen;
+    font-size: x-large;
+    padding: 10px;
+}
