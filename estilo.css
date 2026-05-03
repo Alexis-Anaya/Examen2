@@ -98,7 +98,209 @@ header{
 /* IMAGENES */
 .tabla-servicio img{
     border-radius: 15px;
-    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERIES - RESPONSIVIDAD */
+
+/* Tablets (576px to 767px) */
+@media (max-width: 767px) {
+    body {
+        background-attachment: scroll;
+    }
+    
+    header {
+        background-attachment: scroll;
+        padding: 15px !important;
+    }
+    
+    #Titulo01 {
+        flex-direction: column !important;
+        text-align: center;
+    }
+    
+    #Titulo01 img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    #Titulo01 h1 {
+        font-size: 1.5rem;
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    
+    #Titulo02 {
+        font-size: 1.2rem;
+        padding: 8px !important;
+    }
+    
+    .navbar {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px !important;
+    }
+    
+    .btn-lm {
+        font-size: 0.9rem !important;
+        padding: 8px 12px !important;
+        margin-right: 5px !important;
+    }
+    
+    .tabla-servicio {
+        margin-bottom: 20px;
+    }
+    
+    .tabla-servicio tr {
+        display: block;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .tabla-servicio td {
+        display: block;
+        width: 100% !important;
+        padding: 15px !important;
+        text-align: center;
+    }
+    
+    .tabla-servicio img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    #Celda {
+        padding: 15px !important;
+        font-size: 1.3rem;
+    }
+    
+    #Presentacion {
+        padding: 15px !important;
+    }
+    
+    #Enviar {
+        padding: 8px 15px !important;
+        font-size: 16px !important;
+    }
+}
+
+/* Móviles pequeños (menos de 576px) */
+@media (max-width: 575px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    
+    header {
+        background-attachment: scroll;
+        padding: 10px !important;
+    }
+    
+    #Titulo01 {
+        padding: 8px !important;
+        border-radius: 15px;
+    }
+    
+    #Titulo01 img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
+    #Titulo01 h1 {
+        font-size: 1.2rem;
+        margin-left: 0 !important;
+        margin-top: 8px;
+    }
+    
+    #Titulo02 {
+        font-size: 1rem;
+        padding: 6px !important;
+        border-radius: 15px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px !important;
+    }
+    
+    .btn-lm {
+        font-size: 0.85rem !important;
+        padding: 6px 10px !important;
+        margin-right: 0 !important;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    h2 {
+        font-size: 1.2rem !important;
+    }
+    
+    h3 {
+        font-size: 1rem !important;
+    }
+    
+    .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    .tabla-servicio {
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .tabla-servicio td {
+        padding: 12px !important;
+    }
+    
+    .tabla-servicio img {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .card-body h5 {
+        font-size: 1rem !important;
+    }
+    
+    .card-body p {
+        font-size: 0.9rem !important;
+    }
+    
+    #Color {
+        padding: 15px !important;
+        margin: 15px 0 !important;
+    }
+    
+    #Presentacion {
+        padding: 12px !important;
+    }
+    
+    #formulario {
+        padding: 0 5px;
+    }
+    
+    .form-label {
+        font-size: 0.95rem !important;
+    }
+    
+    #Enviar {
+        width: 100%;
+        padding: 10px !important;
+        font-size: 1rem !important;
+    }
+    
+    footer {
+        padding: 15px !important;
+        font-size: 0.9rem;
+    }
 }
 
 /* ZOOM IMAGEN */

@@ -26,10 +26,12 @@
     </header>
 
 <!-- NAVBAR -->
-<nav class="navbar bg-dark d-flex justify-content-center">
-    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
-    <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="#">Servicios</a>
-    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="contacto.html">Contacto</a>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid d-flex justify-content-center flex-wrap">
+        <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
+        <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="#">Servicios</a>
+        <a class="fs-5 btn btn-outline-light btn-lm me-3" href="contacto.html">Contacto</a>
+    </div>
 </nav>
 
 <!-- SECCIÓN SERVICIOS -->
@@ -38,61 +40,63 @@
     <h1 class="text-center mb-4" id="Celda">Nuestros Servicios</h1>
 
     <!-- SERVICIO 1 -->
-    <table class="tabla-servicio">
-        <tr>
-            <td width="30%">
-                <img src="Imagenes/mantenimiento-del-coche-ford.jpg" class="img-fluid rounded">
-            </td>
-            <td>
-                <h3>Mantenimiento General</h3>
-                <p>
-                    Revisión completa del vehículo: aceite, frenos, niveles y diagnóstico básico.
-                    Ideal para mantener tu auto en óptimas condiciones.
-                </p>
-                <a href="contacto.html" class="btn btn-danger">Solicitar servicio</a>
-            </td>
-        </tr>
-    </table>
-    <br>
+    <div class="row mb-4">
+        <div class="tabla-servicio">
+            <div class="row g-0">
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center p-3">
+                    <img src="Imagenes/mantenimiento-del-coche-ford.jpg" class="img-fluid rounded" alt="Mantenimiento General">
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-column justify-content-center p-3">
+                    <h3>Mantenimiento General</h3>
+                    <p>
+                        Revisión completa del vehículo: aceite, frenos, niveles y diagnóstico básico.
+                        Ideal para mantener tu auto en óptimas condiciones.
+                    </p>
+                    <a href="contacto.html" class="btn btn-danger align-self-start">Solicitar servicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- SERVICIO 2 -->
-    <table class="tabla-servicio">
-        <tr>
-            <td width="30%">
-                <img src="Imagenes/eletricteste-2048x1281.jpg" class="img-fluid rounded">
-            </td>
-            <td>
-                <h3>Diagnóstico Electrónico</h3>
-                <p>
-                    Escaneo del sistema del vehículo para detectar fallas electrónicas con equipo especializado.
-                </p>
-                <a href="contacto.html" class="btn btn-danger">Solicitar servicio</a>
-            </td>
-        </tr>
-        
-    </table>
-    <br>
+    <div class="row mb-4">
+        <div class="tabla-servicio">
+            <div class="row g-0">
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center p-3">
+                    <img src="Imagenes/eletricteste-2048x1281.jpg" class="img-fluid rounded" alt="Diagnóstico Electrónico">
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-column justify-content-center p-3">
+                    <h3>Diagnóstico Electrónico</h3>
+                    <p>
+                        Escaneo del sistema del vehículo para detectar fallas electrónicas con equipo especializado.
+                    </p>
+                    <a href="contacto.html" class="btn btn-danger align-self-start">Solicitar servicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- SERVICIO 3 -->
-    <table class="tabla-servicio">
-        <tr>
-            <td width="30%">
-                <img src="Imagenes/Reparaciones-de-cabeza-2048x1365.jpg" class="img-fluid rounded">
-            </td>
-            <td>
-                <h3>Reparación de Motor</h3>
-                <p>
-                    Servicio completo para reparación y ajuste de motor con supervisión profesional.
-                </p>
-                <a href="contacto.html" class="btn btn-danger">Solicitar servicio</a>
-            </td>
-        </tr>
-    </table>
-<br>
+    <div class="row mb-4">
+        <div class="tabla-servicio">
+            <div class="row g-0">
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center p-3">
+                    <img src="Imagenes/Reparaciones-de-cabeza-2048x1365.jpg" class="img-fluid rounded" alt="Reparación de Motor">
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-column justify-content-center p-3">
+                    <h3>Reparación de Motor</h3>
+                    <p>
+                        Servicio completo para reparación y ajuste de motor con supervisión profesional.
+                    </p>
+                    <a href="contacto.html" class="btn btn-danger align-self-start">Solicitar servicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center p-3">
+<footer class="bg-dark text-white text-center p-3 fixed-bottom">
     <p>©2026 Los-Lobos-Mecánicos</p>
 </footer>
 

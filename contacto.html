@@ -26,29 +26,31 @@
     </header>
 
 <!-- NAVBAR -->
-<nav class="navbar bg-dark d-flex justify-content-center">
-    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
-    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="Servicios.html">Servicios</a>
-    <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="#">Contacto</a>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid d-flex justify-content-center flex-wrap">
+        <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
+        <a class="fs-5 btn btn-outline-light btn-lm me-3" href="Servicios.html">Servicios</a>
+        <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="#">Contacto</a>
+    </div>
 </nav>
 
 <!-- FORMULARIO -->
 <section class="container mt-4 py-4 text-center" id="Color">
     <h1 class="mb-4">Formulario de Contacto</h1>
 
-    <form id="formulario" class="row g-3 justify-content-center">
+    <form id="formulario" class="row g-3 justify-content-center mx-auto" style="max-width: 600px;">
 
-        <div class="col-md-6 text-start">
+        <div class="col-12 col-md-6 text-start">
             <label for="nombre" class="form-label fw-bold">Nombre:</label>
             <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
         </div>
 
-        <div class="col-md-6 text-start">
+        <div class="col-12 col-md-6 text-start">
             <label for="correo" class="form-label fw-bold">Correo:</label>
             <input type="email" id="correo" class="form-control" placeholder="Necesita ser un correo valido" required>
         </div>
 
-        <div class="col-md-6 text-start">
+        <div class="col-12 col-md-6 text-start">
             <label for="servicio" class="form-label fw-bold">Tipo de Servicio:</label>
             <select id="servicio" class="form-select" required>
                 <option value="">Selecciona</option>
@@ -65,7 +67,7 @@
             </select>
         </div>
 
-        <div class="col-md-8 text-start">
+        <div class="col-12 text-start">
             <label for="Message" class="form-label fw-bold">Mensaje:</label>
             <textarea id="Message" class="form-control" rows="4" placeholder="Escriba aqui su mensaje!" required></textarea>
         </div>
@@ -82,7 +84,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-dark text-white text-center p-3 mt-4">
+<footer class="bg-dark text-white text-center p-3 fixed-bottom">
     <p>©2026 Los-Lobos-Mecánicos</p>
 </footer>
 
