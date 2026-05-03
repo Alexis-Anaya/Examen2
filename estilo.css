@@ -62,6 +62,15 @@ header{
     transition: 0.3s ease;
 }
 
+#Color{
+    background: linear-gradient(135deg, rgba(22, 98, 165, 0.95), rgba(120,30,30,0.95));
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+
 /* CELDAS */
 .tabla-servicio td{
     border: none;
@@ -71,6 +80,17 @@ header{
 /* EFECTO HOVER */
 .tabla-servicio:hover{
     transform: scale(1.02);
+}
+
+#Celda{
+    background-color: #081a41;
+    color: white;
+    border: none;
+    padding: 25px;
+}
+
+#Celda:hover{
+     transform: scale(1.02);
 }
 
 /* IMAGENES */
@@ -105,8 +125,22 @@ header{
     border: none;
 }
 
+#Color .btn{
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: #081a41;
+    border: none;
+}
+
 /* BOTON HOVER */
 .tabla-servicio .btn:hover{
+    background-color: #0d2a70;
+    transform: scale(1.1);
+}
+
+#Color .btn:hover{
     background-color: #0d2a70;
     transform: scale(1.1);
 }

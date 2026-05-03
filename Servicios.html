@@ -15,31 +15,33 @@
 <body>
 
 <!-- HEADER -->
-<header class="p-5 bg-dark text-white text-center">
-    <div class="d-flex justify-content-center align-items-center">
-        <img src="Imagenes/Logo01.webp" width="80">
-        <h1 class="ms-3">Los Lobos Mecánicos</h1>
-    </div>
-    <h2>Taller Mecánico Universitario</h2>
-</header>
+<header class="p-5">
+        <section class="container-fluid d-flex flex-column align-items-center text-white">
+            <div class="d-flex flex-row align-items-center" id="Titulo01">
+                <img src="Imagenes/Logo01.webp" alt="" width="100px" height="100px">
+                <h1 class="ms-4 fw-bold">Los Lobos Mecanicos</h1>
+            </div>
+            <div><h2 id="Titulo02">Taller Mecanico Universitario</h2></div>
+        </section>
+    </header>
 
 <!-- NAVBAR -->
 <nav class="navbar bg-dark d-flex justify-content-center">
-    <a class="btn btn-outline-light me-2" href="index.html">Inicio</a>
-    <a class="btn btn-secondary me-2 disabled" href="#">Servicios</a>
-    <a class="btn btn-outline-light me-2" href="contacto.html">Contacto</a>
+    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="index.html">Inicio</a>
+    <a class="fs-5 btn btn-secondary btn-lm disabled me-3" href="#">Servicios</a>
+    <a class="fs-5 btn btn-outline-light btn-lm me-3" href="contacto.html">Contacto</a>
 </nav>
 
 <!-- SECCIÓN SERVICIOS -->
 <section class="container mt-5">
 
-    <h1 class="text-center mb-4">Nuestros Servicios</h1>
+    <h1 class="text-center mb-4" id="Celda">Nuestros Servicios</h1>
 
     <!-- SERVICIO 1 -->
     <table class="tabla-servicio">
         <tr>
             <td width="30%">
-                <img src="/Imagenes/mantenimiento-del-coche-ford.jpg" class="img-fluid rounded">
+                <img src="Imagenes/mantenimiento-del-coche-ford.jpg" class="img-fluid rounded">
             </td>
             <td>
                 <h3>Mantenimiento General</h3>
@@ -51,12 +53,13 @@
             </td>
         </tr>
     </table>
+    <br>
 
     <!-- SERVICIO 2 -->
     <table class="tabla-servicio">
         <tr>
             <td width="30%">
-                <img src="/Imagenes/eletricteste-2048x1281.jpg" class="img-fluid rounded">
+                <img src="Imagenes/eletricteste-2048x1281.jpg" class="img-fluid rounded">
             </td>
             <td>
                 <h3>Diagnóstico Electrónico</h3>
@@ -66,13 +69,15 @@
                 <a href="contacto.html" class="btn btn-danger">Solicitar servicio</a>
             </td>
         </tr>
+        
     </table>
+    <br>
 
     <!-- SERVICIO 3 -->
     <table class="tabla-servicio">
         <tr>
             <td width="30%">
-                <img src="/Imagenes/Reparaciones-de-cabeza-2048x1365.jpg" class="img-fluid rounded">
+                <img src="Imagenes/Reparaciones-de-cabeza-2048x1365.jpg" class="img-fluid rounded">
             </td>
             <td>
                 <h3>Reparación de Motor</h3>
@@ -83,7 +88,7 @@
             </td>
         </tr>
     </table>
-
+<br>
 </section>
 
 <!-- FOOTER -->
