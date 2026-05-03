@@ -41,6 +41,7 @@ header{
 #mensaje{
     font-weight: bold;
     font-size: larger;
+    color: greenyellow;
 }
 
 /* BOTON */
