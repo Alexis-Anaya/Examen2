@@ -24,32 +24,88 @@ header{
     border-radius: 25px;
 }
 
+/* FORMULARIO */
 #Presentacion{
-    background-color: rgba(185, 66, 66, 0.75);
+    background-color: rgba(185, 66, 66, 0.55);
+    backdrop-filter: blur(6px);
     color: black;
     border-radius: 25px;
+    padding: 25px;
 }
 
 #formulario{
     font-weight: bold;
 }
 
-#Message{
-    width: 40%;
-}
-
+/* MENSAJE */
 #mensaje{
     font-weight: bold;
     font-size: larger;
 }
 
-#correo{
-    width: 20%;
+/* BOTON */
+#Enviar{
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px 25px;
+    transition: 0.3s ease;
 }
 
-#Enviar{
+/* TABLA DE SERVICIOS */
+.tabla-servicio{
+    background: linear-gradient(135deg, rgba(22, 98, 165, 0.95), rgba(120,30,30,0.95));
+    color: white;
     border-radius: 20px;
-    background-color: lightgreen;
-    font-size: x-large;
-    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+
+/* CELDAS */
+.tabla-servicio td{
+    border: none;
+    padding: 25px;
+}
+
+/* EFECTO HOVER */
+.tabla-servicio:hover{
+    transform: scale(1.02);
+}
+
+/* IMAGENES */
+.tabla-servicio img{
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* ZOOM IMAGEN */
+.tabla-servicio img:hover{
+    transform: scale(1.08);
+}
+
+/* TITULO SERVICIO */
+.tabla-servicio h3{
+    font-weight: bold;
+    color: #73f6cc;
+}
+
+/* TEXTO */
+.tabla-servicio p{
+    font-size: 16px;
+}
+
+/* BOTON */
+.tabla-servicio .btn{
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: #081a41;
+    border: none;
+}
+
+/* BOTON HOVER */
+.tabla-servicio .btn:hover{
+    background-color: #0d2a70;
+    transform: scale(1.1);
 }
